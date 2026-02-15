@@ -226,10 +226,3 @@ three()
 one
 three
 two 
-// Explain Why.
-// JS has two types of code execution:
-//synchronous code - excutes immediately in order(one,three)
-// asynchronous code -excutes after sysnchronous code completes(two)
-//settmeout is asynchronous eve withe 0 ms delay 
-//goes to call back queue ad waits for sysnchronous code to finish
-// event loop runs sysnchrouns tasks 1 st , the asynchronous tasks 
